@@ -31,3 +31,12 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# OSX garbage
+.DS_Store
+
+# Build directory
+dist
+
+# Typings directory
+typings

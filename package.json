@@ -1,0 +1,40 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "Gang of Four design patterns implemented in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "typings install",
+    "build": "npm run clean && webpack",
+    "clean": "rimraf dist",
+    "clean:typings": "rimraf typings",
+    "typings": "typings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecozoic/design-patterns.git"
+  },
+  "keywords": [],
+  "author": "John Mitchell <johnnn.mitchell@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecozoic/design-patterns/issues"
+  },
+  "homepage": "https://github.com/ecozoic/design-patterns#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "0.17.0",
+    "rimraf": "2.5.2",
+    "tslint": "3.10.2",
+    "tslint-loader": "2.1.4",
+    "typescript": "1.8.10",
+    "typings": "1.0.3",
+    "webpack": "1.13.0",
+    "webpack-dev-server": "1.14.1"
+  },
+  "dependencies": {
+    "es5-shim": "4.5.8",
+    "es6-shim": "0.35.1"
+  }
+}
